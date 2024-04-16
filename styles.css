@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fire.jpeg); /* Use fire.jpeg as background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center; /* Center the background image */
+    color: #444; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Your existing CSS styles */
+header {
+    background: #9a0101; /* Dark gray header background */
+    color: #fff; /* White header text color */
+    padding: 20px; /* Increased padding for header */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 5px; /* Rounded corners for sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for sections */
+}
+
+footer {
+    background: #a8a7a7; /* Dark gray footer background */
+    color: #fff; /* White footer text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Additional styles */
+.hobby-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Flexbox layout for side-by-side sections */
+#side-by-side {
+    display: flex;
+}
+
+/* Adjust spacing between sections */
+#image,
+#video {
+    flex: 1; /* Each section takes equal space */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Additional styling for image */
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
